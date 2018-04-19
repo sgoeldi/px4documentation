@@ -2,7 +2,7 @@
 Just a few clues to find your way through the jungle.
 by Simon Göldi @ ILT a HSR Institute
 
----
+
 # Getting Started with mavros
 
 ## Goal
@@ -174,23 +174,29 @@ $ rosrun mavros mavsetp local -p 1 0 0 0
 
 ---
 
-# Start Gazebo Simulation 
+# Start the Simulation environement
+## Gazebo
 For setting up the Gazebo Simulation environement:
 ```bash
 make posix_sitl_ekf2 gazebo_iris
 ```
+
+## jmavsim
 For setting up the the jmavSim Simulation environement.
 
 ````bash
 make posix jmavsim
 ```
 
+## Connect the px4 Firmware
+
 ```bash
 roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
 ```
 
-
-
+This can be found on 
+- https://dev.px4.io/en/simulation/ros_interface.html
+- https://dev.px4.io/en/simulation/
 
 
 
