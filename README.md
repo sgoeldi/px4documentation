@@ -120,12 +120,13 @@ A list of the available topic_name can be found by the command `rostopic list`
 
 **Example IMU:**
 ```bash
-$ rostopic echo /mavros/imu/data
+$ rostopic echo /mavros/imu/data/raw
 ```
 To check the stream rate use following command:
 ```bash
-$ rostopic hz /mavros/imu/data
+$ rostopic hz /mavros/imu/data/raw
 ```
+raw for getting the higher_imu
 
 
 ---
