@@ -251,3 +251,14 @@ Attitude, angular rate and thrust setpoint.
 
 
 https://answers.ros.org/question/218818/how-to-publish-a-ros-msg-on-linux-terminal/
+
+
+
+# TBS Update
+
+To Update the TBS transmitter and reciever you have to follow this procedur:
+
+1. Install the TBS Agent Software on a windows machine (Link: http://www.team-blacksheep.com/corepro/agent)
+2. Connect the TBS TX to the PC with the Agent an choose the Firmware Version. Wait
+3. Bind the TX and RX:
+ 3.1 
