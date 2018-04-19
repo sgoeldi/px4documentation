@@ -202,11 +202,21 @@ This can be found on
 
 # Firmware auf pixhawk flashen
 
-for the Pixhawk j
+To build for NuttX- or Pixhawk- based boards, navigate into the Firmware directory and then call make with the build target for your board. You find further information https://dev.px4.io/en/setup/building_px4.html
+
+Zo build for Pixhawk2 (Cube) you would use the following command:
+
 
 ## Build
 ```bash
-make px4fmu-v3_default upload
+cd Firmware
+make px4fmu-v4_default
+```
+
+A successful run will end with similar output to:
+```bash
+-- Build files have been written to: /home/youruser/src/Firmware/build/px4fmu-v4_default
+[954/954] Creating /home/youruser/src/Firmware/build/px4fmu-v4_default/px4fmu-v4_default.px4
 ```
 
 ## Upload
