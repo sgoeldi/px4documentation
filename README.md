@@ -8,7 +8,7 @@ by Simon Göldi @ ILT a HSR Institute
 ## Goal
 Setting up a ROS System with a mavros bridge so that a pixhawk flight controller (FCU) can be connected to a companion computer with a ROS running.
 
----
+
 ## Setting up Linux computer
 The following steps have to be completed for setting up a mavros connection with a pixhawk. First of all you need to install ***ROS***. A installation guide can be found [here](http://wiki.ros.org/kinetic/Installation/Ubuntu)
 
@@ -238,3 +238,16 @@ Rebooting.
 ```
 
 If ther are Problems with the bootloader. reconnect usb connection to the pixhawk.
+
+
+
+//:TODO
+http://docs.ros.org/api/mavros_msgs/html/msg/AttitudeTarget.html
+
+http://wiki.ros.org/mavros#mavros.2BAC8-Plugins.setpoint_raw
+~setpoint_raw/attitude (mavros_msgs/AttitudeTarget)
+Attitude, angular rate and thrust setpoint.
+
+
+
+https://answers.ros.org/question/218818/how-to-publish-a-ros-msg-on-linux-terminal/
