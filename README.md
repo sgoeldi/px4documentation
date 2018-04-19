@@ -184,7 +184,7 @@ make posix_sitl_ekf2 gazebo_iris
 ## jmavsim
 For setting up the the jmavSim Simulation environement.
 
-````bash
+```bash
 make posix jmavsim
 ```
 
