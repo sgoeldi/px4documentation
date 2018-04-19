@@ -199,8 +199,31 @@ This can be found on
 - https://dev.px4.io/en/simulation/
 
 
+# Firmware auf pixhawk flashen
+
+for the Pixhawk j
+
+## Build
+```bash
+make px4fmu-v3_default upload
+```
+
+## Upload
+Append upload to the make commands to upload the compiled binary to the autopilot hardware via USB. For example
+
 ```bash
 make px4fmu-v3_default upload
 ```
 
 
+A succesfull upload will be confirmed by....
+```bash
+Erase  : [====================] 100.0%
+Program: [====================] 100.0%
+Verify : [====================] 100.0%
+Rebooting.
+
+[100%] Built target upload
+```
+
+If ther are Problems with the bootloader. reconnect usb connection to the pixhawk.
