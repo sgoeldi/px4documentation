@@ -199,4 +199,8 @@ This can be found on
 - https://dev.px4.io/en/simulation/
 
 
+```bash
+make px4fmu-v3_default upload
+```
+
 
