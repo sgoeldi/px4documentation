@@ -253,7 +253,7 @@ Attitude, angular rate and thrust setpoint.
 https://answers.ros.org/question/218818/how-to-publish-a-ros-msg-on-linux-terminal/
 
 
-
+---
 # TBS Update
 
 To Update the TBS transmitter and reciever you have to follow this procedur:
@@ -261,4 +261,13 @@ To Update the TBS transmitter and reciever you have to follow this procedur:
 1. Install the TBS Agent Software on a windows machine (Link: http://www.team-blacksheep.com/corepro/agent)
 2. Connect the TBS TX to the PC with the Agent an choose the Firmware Version. Wait
 3. Bind the TX and RX:
- 3.1 
+ 3.1 Unpower the RX and TX
+ 3.2 Power the TX and then the RX
+ 3.3 Go to the bind Mode on the TX ()
+ 3.3 Press the bind Button on the RX -> connecting
+ 
+ ---
+ # Change Channel Mapping on Taranis
+ The following sequenz describes the maps for taranis RC-controller.
+ As a basic tutorial, the following video is a good starting point. [Tutorial](https://www.youtube.com/watch?v=JRfZbz4zsdk)
+
