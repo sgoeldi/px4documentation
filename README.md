@@ -271,3 +271,8 @@ To Update the TBS transmitter and reciever you have to follow this procedur:
  The following sequenz describes the maps for taranis RC-controller.
  As a basic tutorial, the following video is a good starting point. [Tutorial](https://www.youtube.com/watch?v=JRfZbz4zsdk)
 
+The channels are mapped as follows:
+- Channel 1-4: normal Flight mode
+- Channel 5: Switch Offboard on/off ()
+- CHannel 6: Dummy -> normally Kill Switch
+- Channel 7: Swtich Mode in the MPC 
