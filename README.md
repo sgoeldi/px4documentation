@@ -2,12 +2,20 @@
 Just a few clues to find your way through the jungle.
 by Simon Göldi @ ILT a HSR Institute
 
-# 
+# Debug Pixhawk 2.1 and FTDI
+The system console allows low-level access to the system, debug output and analysis of the system boot process. 
 
+Connect the FTDI cable to the pins named CONS as follows:
 
-|PGRD|
-|TX|
-|RX|
+**port parameters:** 57600 baud, 8 data bits, 1 stop bit
+
+|Pin| |
+|---|---|
+|1 (next to cube)|Ground|
+|2|TX|
+|3|RX|
+
+Further information can be found here: https://dev.px4.io/en/debug/system_console.html
 
 # Getting Started with mavros
 
