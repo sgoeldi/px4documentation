@@ -2,6 +2,12 @@
 Just a few clues to find your way through the jungle.
 by Simon Göldi @ ILT a HSR Institute
 
+# 
+
+
+|PGRD|
+|TX|
+|RX|
 
 # Getting Started with mavros
 
