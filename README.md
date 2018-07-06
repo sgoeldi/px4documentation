@@ -24,8 +24,7 @@ Setting up a ROS System with a mavros bridge so that a pixhawk flight controller
 
 ## Wiring
 
-![Optional Text][../Pinout_Telem1.jpg)
-
+![Pinout Telem1 Port](Pinout_Telem1.jpg)
 
 
 ## Setting up Linux computer
