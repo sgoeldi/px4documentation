@@ -22,6 +22,11 @@ Further information can be found here: https://dev.px4.io/en/debug/system_consol
 ## Goal
 Setting up a ROS System with a mavros bridge so that a pixhawk flight controller (FCU) can be connected to a companion computer with a ROS running.
 
+## Wiring
+
+![Optional Text]Pinout_Telem1.jpg)
+
+
 
 ## Setting up Linux computer
 The following steps have to be completed for setting up a mavros connection with a pixhawk. First of all you need to install ***ROS***. A installation guide can be found [here](http://wiki.ros.org/kinetic/Installation/Ubuntu)
