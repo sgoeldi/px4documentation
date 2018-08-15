@@ -294,3 +294,8 @@ The channels are mapped as follows:
 - Channel 5: Switch Offboard on/off ()
 - CHannel 6: Dummy -> normally Kill Switch
 - Channel 7: Swtich Mode in the MPC 
+
+
+# pX4 Hack für Trajektorie nach ETH 
+im Slack mit Florian
+
